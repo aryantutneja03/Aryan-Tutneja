@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+hr{
+  width: 5%;
+  border-style: dotted none none none;
+  border-color: #EAF6F6;
+  border-width: 5px;
+
+}
+
+.btn{
+  border-radius: 8px;
+  font-size: 20px;
+  border-color: #C3F8FF;
+  color: white;
+  margin: 1em auto;
+  background-image: linear-gradient(#ABD9FF, #C3F8FF);
+  font-family: 'Merriweather', serif;
+}
+.btn:hover{
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+.top-container{
+  background-color: #E1FFEE;
+  position: relative;
+  padding-top: 100px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.skills{
+  margin: 100px auto 0 auto;
+  /* font-size: 2em; */
+}
+.profile{
+  width: 50%;
+  margin: 100px auto;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.contact-me{
+  width: 50%;
+  margin: 100px auto;
+  /* padding: 10px; */
+}
+.bottom-cloud{
+  position: absolute;
+  left: 12.5em;
+}
+.assistance-description{
+  margin: 2em auto;
+}
+
+.my-image{
+  height:9.25em;
+  width: auto;
+}
+.sf-image{
+  /* height:100px; */
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.tech-image{
+  /* height:100px; */
+  width: 25%;
+  float: right; /*to clear float we use 'clear' that means if we want to make paragraph to be under the image we use property clear inside para class
+                  for exmple: para1{
+                  clear: right;
+                  }.*/
+  margin-left: 30px;
+}
+.bottom-container{
+  background-color: #E1FFEE;
+  position: relative;
+  padding: 2em;
+}
+/* 100% = 16px = 1em = 1rem */
+h1{
+  font-family: 'Sacramento', cursive;
+  color: #7FBCD2;
+  /* line-height: 2; */
+  margin: 3.125rem auto 0 auto;
+  font-size: 5.625rem; /* We used rem to avoid errors so that it does not inherit and add parent's font-sizes
+                        and to make dynamic (we can use em and % but for the reason above we used rem)*/
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: #7FBCD2;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #A5F1E9;
+}
+a{
+  color: #7FBCD2;
+  margin: 2rem;
+  text-decoration: auto;
+}
+.copyright{
+  color: #7FBCD2;
+  font-size: 0.75em;
+  padding-top: 1em;
+}
